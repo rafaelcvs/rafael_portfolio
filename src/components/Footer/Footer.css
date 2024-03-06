@@ -1,0 +1,39 @@
+@import "../../vars.css";
+
+@import "../../vars.css";
+
+.footerContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+    background: linear-gradient(180deg, rgba(180, 180, 180, 0.30) -65.47%, rgba(255, 255, 255, 0.00) 105.55%);   
+   
+}
+
+.footerTitle {
+    font-size: 30px;
+    
+}
+
+.footerSubtitle{
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: 500;
+
+}
+
+.footerEmailTag {
+    font-size: 16px;
+    text-decoration: none;
+    color: inherit;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 615px) {
+    .footerContainer{
+        flex-direction: column;
+        height: 300px;
+    }
+
+}

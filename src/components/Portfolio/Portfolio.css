@@ -1,0 +1,161 @@
+
+@import "../../vars.css";
+
+
+.portContainer {
+    display: flex;
+    flex-direction: column; /* Stacks child elements vertically */
+    align-items: center; /* Centers children horizontally */
+    padding: 20px;
+    margin-top: 100px; /* Spacing from the top of the viewport */
+    gap: 20px;
+    margin-bottom: 50px;
+}
+  
+
+.portTitle {
+    font-size: 32px; /* Large font size for emphasis */
+    margin-bottom: 10px; /* Spacing below the title */
+    text-align: center;
+}
+
+
+.subTitle {
+    text-transform: uppercase;
+    font-size: 20px; /* Smaller font size for subtlety */
+    font-weight: 600; /* Semi-bold for better readability */
+    color: var(--red); /* Utilizes a CSS variable for color consistency */
+    text-align: center; /* Centers text horizontally */
+    margin-bottom: 70px; /* Spacing below the subtitle */
+}
+  
+
+.portfolio {
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap to the next line */
+    justify-content: center; /* Centers items horizontally */
+    gap: 50px; /* Spacing between project containers */
+    margin-bottom: 70px;
+}
+  
+
+.projectContainer {
+    display: flex;
+    flex-direction: column;    
+    width: 550px; /* Ensures consistent width for each project */
+    height: 620px;
+    padding: 20px;
+    gap: 20px;
+    border-radius: 15px;
+    background: linear-gradient(180deg, rgba(180, 180, 180, 0.30) -65.47%, rgba(255, 255, 255, 0.00) 105.55%);
+    box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.35);
+    transition: all 1s;
+    /* overflow: hidden; */
+  
+}
+
+.projectLink {
+    display: flex;
+    align-self: center;
+   
+}
+  
+
+
+.projectContainer:hover  {
+    transform: scale(1.04)
+    
+}
+
+
+
+.projectImg {
+   border-radius: 15px;
+   height: 350px;
+   width: auto;
+   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.35);
+   transition: all 1s;
+   
+   
+   
+}
+  
+/* Container for the project name and like section */
+.projectNameContainer {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 1%;
+}
+
+
+
+/* Styling for the project name */
+.projectName {
+    font-family: var(--poppins);
+    color: var(--red); /* Medium grey for consistency with likes counter */
+    font-size: 22px;
+    font-weight: 600;
+    transition: all 1s;
+
+}
+  
+/* Heart icon styling */
+.projectHeart {
+    width: 12px;
+    height: 12px;
+
+    transition: all 1s;
+  
+}
+  
+
+.likesContainer {
+
+
+}
+
+
+/* Styling for the likes counter */
+.projectLikes {
+
+    transition: all 1s;
+    
+    
+}
+  
+/* Project description styling */
+.projectDescription {
+    font-family: var(--poppins);
+    font-size: 18px;
+    font-weight: 400;
+    transition: all 1s;
+    margin: 0 1%;
+}
+
+
+@media screen and (max-width: 610px) {
+    .projectImg {
+      height: 280px;
+    }
+    .projectContainer {
+      width: 450px; 
+      height: auto;
+    }
+
+}
+
+      
+@media screen and (max-width: 500px) {
+    .projectImg {
+      height: 200px;
+
+    }
+
+    .projectContainer {
+        width: 320px; 
+    
+    }
+
+}

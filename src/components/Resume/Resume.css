@@ -1,0 +1,118 @@
+@import "../../vars.css";
+
+.resume {
+    margin-bottom: 50px;
+}
+
+.expEduContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 50px;
+}
+
+
+.expEduContainerChild {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.expContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1750px) {
+    .expContainer {
+        width: 1000px;
+       
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .expContainer {
+        width: 100%;
+       
+    }
+}
+
+
+.eeContainer {
+    padding: 20px 20px;
+    width: 400px;
+    height: 250px; 
+    border-radius: 15px;
+    background: linear-gradient(180deg, rgba(180, 180, 180, 0.30) -65.47%, rgba(255, 255, 255, 0.00) 105.55%);
+    box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.35);
+    transition: all 1s;
+}
+
+.eeContainer:hover {
+    background-color: rgb(211, 0, 63);
+    transform: translateY(-10px);
+}
+
+
+.eeContainer:hover .eeDescription,
+.eeContainer:hover .eeTitle,
+.eeContainer:hover .eeCompany {
+    color: white; /* Changes color to white on hover */
+}
+
+.eeContainer:hover .eeBreak {
+    background-color: #fff;
+}
+
+
+
+.expEduTitle {
+    align-self: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--red);
+}
+
+.eeTitle {
+    font-family: var(--poppins);
+    font-size: 18px; /* Smaller font size for subtlety */
+    font-weight: 600; /* Semi-bold for better readability */
+    margin-bottom: 5px;
+
+}
+
+.eeCompany {
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 5px;
+
+}
+
+.eeDescription {
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.eeBreak {
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: rgba(180, 180, 180, 0.40);
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width: 450px) {
+    .eeContainer{
+       width: 100%;
+    }
+
+}

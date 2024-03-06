@@ -1,0 +1,159 @@
+@import "../../vars.css";
+
+
+.aboutContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 150px 5%;
+    gap: 30px;
+   
+}
+
+.abContainer { 
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 50px;
+        
+}
+
+.abcContainer {
+   width: 500px;
+   
+}
+
+@media screen and (max-width: 1555px) {
+    .abcContainer {
+        width: 100%;
+        margin: 0 5%;
+       
+    }
+}
+
+.JPContainer  {
+    display: flex;
+    gap: 35px;
+    flex-wrap: wrap;
+}
+
+.STContainer {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 20px;
+} 
+
+@media screen and (max-width: 1575px) {
+    .testContainer {
+        
+        width: 100%
+    }
+}
+
+.aboutSubtitle {
+    color: var(--red);
+}
+.aboutText {
+    font-family: var(--poppins);
+    font-size: 18px;
+    
+}
+
+.whatIDoContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.whatIDo {
+    align-self: center;
+    color: var(--red);
+}
+
+.webContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+
+}
+
+.ddContainer {
+    display: flex;
+    flex-direction: column;    
+    width: 400px; /* Ensures consistent width for each project */
+    padding: 20px 20px; 
+    gap: 20px;
+    border-radius: 15px;
+    background: linear-gradient(180deg, rgba(180, 180, 180, 0.30) -65.47%, rgba(255, 255, 255, 0.00) 105.55%);
+    box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.35);
+    transition: all 0.3s;
+
+}
+
+.ddContainer:hover  {
+    transform: scale(1.04)
+    
+}
+
+@media screen and (max-width: 440px) {
+    .ddContainer {
+        
+        width: 100%
+    }
+}
+
+.ddTitle {
+    align-self: center;
+
+    
+}
+
+.ddBreak {
+    position: relative;
+}
+
+.ddBreak::before {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: rgba(180, 180, 180, 0.40);
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.ddLittleContainer {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+}
+
+.span123 {
+    padding: 10px;
+    background: #6b5959;
+    border-radius: 0%;
+    transition: .5s;
+
+}
+
+
+.ddIcon {
+    width: 35px;
+    height: 35px;
+
+}
+
+.ddIcon:hover {
+    
+}
+
+.ddText {
+    font-family: var(--poppins);
+    hyphens: auto;
+
+}
+
+.uBold {
+    font-weight: 600;
+
+}

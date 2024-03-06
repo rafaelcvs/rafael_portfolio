@@ -1,0 +1,255 @@
+@import "../../vars.css";
+
+.skillsContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 0 5%;
+    gap: 10px;
+    margin-bottom: 50px;
+
+}
+
+.resumeTitle {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    
+    
+}
+
+
+.PPcontainer {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.profTitle {
+    align-self: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: var(--red);
+    font-weight: 600;
+}
+
+.skillTitle {
+    display: flex;
+    align-self: start;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+
+}
+
+.progressBar {
+    background-color: #c5c7c9;
+    width: 500px;
+    height: 14px;
+    border-radius: 15px;   
+    padding: 2px;
+}
+
+@media screen and (max-width: 600px) {
+    .progressBar {
+    
+        width: 350px;
+
+    }
+
+}
+
+
+@media screen and (max-width: 380px) {
+    .progressBar {
+    
+        width: 300px;
+
+    }
+
+}
+
+.progressBar div {
+    height: 10px;
+    border-radius: 5px;
+    width: 0%;
+    background: linear-gradient(145deg, #fff 0%, #ff014f 100%);
+
+}
+
+.progressBar span {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #3d3d3d;
+    float: right;
+    margin-top: -15px;
+    margin-right: -20px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.html {
+    animation: html 1s linear forwards;
+}
+
+@keyframes html {
+    100% {
+        width: 70%;
+    }
+}
+
+.css {
+    animation: css 1s linear forwards;
+
+}
+
+@keyframes css {
+    100% {
+        width: 85%;
+    }
+}
+
+.javascript {
+    animation: javascript 1s linear forwards;
+
+}
+
+@keyframes javascript {
+    100% {
+        width: 70%;
+    }
+}
+
+.react {
+    animation: react 1s linear forwards;
+
+}
+
+@keyframes react {
+    100% {
+        width: 75%;
+    }
+}
+
+.typeScript {
+    animation: typeScript 1s linear forwards;
+
+}
+
+@keyframes typeScript {
+    100% {
+        width: 55%;
+    }
+}
+
+.html span {
+    border: 1px solid var(--red);
+
+}
+
+.css span {
+    border: 1px solid var(--red);
+
+}
+
+.javascript span {
+    border: 1px solid var(--red);
+
+}
+
+.react span {
+    border: 1px solid var(--red);
+
+}
+.typeScript span {
+    border: 1px solid var(--red);
+
+}
+/* ------------------------------------------------ */
+.node {
+    animation: node 1s linear forwards;
+}
+
+@keyframes node {
+    100% {
+        width: 50%;
+    }
+}
+
+.GraphQL {
+    animation: GraphQL 1s linear forwards;
+
+}
+
+@keyframes GraphQL {
+    100% {
+        width: 55%;
+    }
+}
+
+.firebase {
+    animation: firebase 1s linear forwards;
+
+}
+
+@keyframes firebase {
+    100% {
+        width: 65%;
+    }
+}
+
+.MongoDB {
+    animation: MongoDB 1s linear forwards;
+
+}
+
+@keyframes MongoDB {
+    100% {
+        width: 40%;
+    }
+}
+
+.figma {
+    animation: figma 1s linear forwards;
+
+}
+
+@keyframes figma {
+    100% {
+        width: 85%;
+    }
+}
+
+.node span {
+    border: 1px solid var(--red);
+
+}
+
+.GraphQL span {
+    border: 1px solid var(--red);
+
+}
+
+.firebase span {
+    border: 1px solid var(--red);
+
+}
+
+.MongoDB span {
+    border: 1px solid var(--red);
+
+}
+.figma span {
+    border: 1px solid var(--red);
+
+}
+

@@ -1,0 +1,145 @@
+@import "../../vars.css";
+
+.contactContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 70px 0;
+    margin: 0 5%;
+    
+}
+
+
+.contactMeSubtitle {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--red);
+
+}
+
+.formContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    background: linear-gradient(180deg, rgba(180, 180, 180, 0.30) -65.47%, rgba(255, 255, 255, 0.00) 105.55%);
+    box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.35);
+}
+
+@media screen and (max-width: 1200px) {
+    .formContainer {
+        width: 550px;
+        justify-content: center;
+        
+    }
+}
+
+.formGroup {
+    display: flex;
+    flex-direction: column;    
+}
+
+
+.formMessageGroup {
+    display: flex;
+    flex-direction: column;     
+
+}
+
+.formTitle {
+    margin-bottom: 3px;
+    font-family: var(--poppins);
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.formInput {
+    width: 500px;
+    margin-bottom: 12px;
+    padding: 7px;
+    background-color: #fdfefe;
+    border: 2px solid #dadada;
+    border-radius: 8px;
+    height: 35px;
+    font-family: var(--poppins);
+    font-size: 14px;
+    outline: none;
+
+    &:focus {
+        border: 2px solid var(--red)
+    }
+ 
+}
+
+
+.formMessage {
+    outline: none;
+    font-family: var(--poppins);
+    font-size: 14px;
+    padding: 10px;
+    width: 500px;
+    height: 215px;
+    background-color: #fdfefe;
+    border: 2px solid #dadada;
+    border-radius: 10px;
+
+    &:focus {
+        border: 2px solid var(--red)
+    }
+
+}
+
+
+
+.formButton {
+    width: 500px;
+    margin-top: 10px;
+    cursor: pointer;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px; 
+    background-color: #f5f5f5;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); 
+    transition: all 0.3s; 
+    color: var(--red);
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+
+.formButton:hover {
+    color: #fff; 
+    background-color: var(--red);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); 
+} 
+
+@media screen and (max-width: 615px) {
+    .formContainer {
+        width: 350px;
+            
+    }
+    .formInput {
+        width: 300px;
+    }
+    .formMessage, .formButton {
+        width: 300px;
+    }    
+}
+
+@media screen and (max-width: 380px) {
+    .formContainer {
+        width: 100%;
+            
+    }
+    .formInput {
+        width: 250px;
+    }
+    .formMessage, .formButton {
+        width: 250px;
+    }    
+}

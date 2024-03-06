@@ -1,0 +1,152 @@
+@import "../../vars.css";
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 100px 10%;
+    gap: 100px;
+    
+}
+
+.heroContainer{
+    
+        
+}
+
+.logoAbout {
+    
+    align-self: start;
+    width: 400px;
+    border-radius: 50%;
+    border: 2px solid gray;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2 ), -4px -4px 10px rgba(0, 0, 0, 0.2);
+    transition: all 1s;
+}
+
+.logoAbout:hover  {
+    transform: scale(1.04)
+    
+}
+
+.ssContainer {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    
+    
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+       
+}
+
+.socialContainer, .bestSkillsContainer {
+    text-align: center;
+    
+    
+}
+
+.heroSubtitle {
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 18px;
+    
+}
+
+
+.heroTitle {
+    font-size: 60px;
+}
+
+.nameColor {
+    color: var(--red)
+}
+
+.u-bold {
+    font-weight: 600;
+}
+
+
+.description {
+    height: auto;
+    width: auto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 2;
+    font-family: var(--poppins);
+ 
+}
+
+.ssText {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+   
+}
+
+.ssList {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+   
+}
+.socialIcon, .skillsItems {
+    display: inline-block;
+    padding: 20px 20px; 
+    background-color: linear-gradient(145deg, #e2e8ec, #ffffff);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2), -4px -4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    align-items: center;
+    transition: all 0.5s; 
+    
+}
+
+.socialImg, .skillsImg {
+    vertical-align: middle;
+    height: 30px;
+    transition: all 0.5s;
+    
+}
+
+.socialIcon:hover {
+    background-color: #ff014f;
+    transform: translateY(-2px);
+}
+
+
+
+
+@media screen and (max-width: 1335px) {
+    .ssContainer {
+        margin-top: 50px;
+        
+    }
+}
+
+@media screen and (max-width: 1085px) {
+    .about {
+       flex-direction: column-reverse;
+       margin: 50px 5% 0 5%;
+       gap: 100px;
+    }
+    
+    
+
+    .logoAbout {
+        display: none;
+    }
+}
+
+
