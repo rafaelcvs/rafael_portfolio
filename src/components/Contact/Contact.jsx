@@ -64,7 +64,8 @@ export const Contact = () => {
           <label className='formTitle'>Phone</label>
           <input className='formInput' type="text" name="user_phone" />
           <label className='formTitle'>Email</label>
-          <input className='formInput' type="email" name="user_email" />       
+          <input className='formInput' type="email" name="user_email" />
+          <img src={getImageUrl("message.png")} alt="logo" class="msgImg" />        
         </div>
         <div className="formMessageGroup">
           <label className='formTitle'>Subject</label>
