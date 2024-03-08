@@ -167,8 +167,11 @@
     }
 
     .nav_link { 
+        display: block;
         padding: 8px 15px;
         color: #fff;
+
+        
     }
 
     .nav__list li:last-child .nav_link {
