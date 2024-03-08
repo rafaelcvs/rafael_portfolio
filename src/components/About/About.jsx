@@ -10,7 +10,7 @@ const About = () => {
                 <div className='JPContainer'>
                     <div className='STContainer'> 
                         <h2 className='aboutSubtitle'> My Journey</h2>
-                        <p className='aboutText'> My journey as web design and developer began in 2013, where I discovered my love for coding and design. I was fascinated by the endless possibilities of combining code and creativity to build something unique and impactful. </p>    
+                        <p className='aboutText'> My journey as web design and developer began in 2023, where I discovered my love for coding and design. I was fascinated by the endless possibilities of combining code and creativity to build something unique and impactful. </p>    
                     </div>          
                     <div className='STContainer'>
                         <h2 className='aboutSubtitle'> My Philosophy</h2>
