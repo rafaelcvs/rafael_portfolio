@@ -149,4 +149,11 @@
     }
 }
 
+@media screen and (max-width: 750px) {
+    .heroContainer{
+        margin-top: -80px;
+        
+    }
+}
+
 
