@@ -19,7 +19,7 @@ const Navbar = () => {
         </a>
       </div>
 
-      <div className="navMenu" onClick={() => setMenuOpen(!menuOpen)} ref={ref}>
+      <div className="navMenu" onClick={() => setMenuOpen(!menuOpen)}>
         <span className={`navMenuSpan ${menuOpen ? 'open' : ''}`}></span>
         <span className={`navMenuSpan ${menuOpen ? 'open' : ''}`}></span>
         <span className={`navMenuSpan ${menuOpen ? 'open' : ''}`}></span>
