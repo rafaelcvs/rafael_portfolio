@@ -85,7 +85,7 @@ const Hero = () => {
                 </div>
             </div>
         </div>
-        <img src={getImageUrl("Logo.png")} alt="logo" class="logoAbout" />    
+        <img src={getImageUrl("Logo.png")} alt="logo" className="logoAbout" />    
     </main>
   );
 };
