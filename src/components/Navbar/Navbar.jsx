@@ -19,13 +19,13 @@ const Navbar = () => {
         </a>
       </div>
 
-      <div className="navMenu" onClick={() => setMenuOpen(!menuOpen)}>
+      <div className="navMenu" onClick={() => setMenuOpen(!menuOpen)} ref={ref}>
         <span className={`navMenuSpan ${menuOpen ? 'open' : ''}`}></span>
         <span className={`navMenuSpan ${menuOpen ? 'open' : ''}`}></span>
         <span className={`navMenuSpan ${menuOpen ? 'open' : ''}`}></span>
       </div>
 
-      <ul className={`nav__list ${menuOpen ? 'open' : ''}`} ref={ref}>
+      <ul className={`nav__list ${menuOpen ? 'open' : ''}`}>
         <li>
           <Link
             onClick={() => setMenuOpen(false)}
