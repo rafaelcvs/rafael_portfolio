@@ -86,6 +86,7 @@
     background-color: #fdfefe;
     border: 2px solid #dadada;
     border-radius: 10px;
+    resize: none;
 
     &:focus {
         border: 2px solid var(--red)
